@@ -5,3 +5,4 @@ function App() {
     <Routes />
   );
 }
+export default App;
