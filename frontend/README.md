@@ -44,3 +44,39 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+
+
+
+
+How To Run The Project
+Back-End
+Prerequisites: Java 11
+
+# Clone repository
+$ git clone https://github.com/viiparente/projeto-sds3.git
+
+# Enter the project back-end folder
+$ cd backend
+
+# Run project
+$ ./mvnw spring-boot:run
+Front-End
+Prerequisites: npm or yarn
+
+# Clone repository
+$ git clone https://github.com/viiparente/projeto-sds3.git
+
+# Enter the project front-end folder
+$ cd frontend
+
+# Install dependencies
+$ yarn install
+
+# Run project
+$ yarn start
+
+# Access localhost
+http://localhost:3000
